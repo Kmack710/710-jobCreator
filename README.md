@@ -1,9 +1,10 @@
 # In-Game Simple Job Creator. 
+![image](https://user-images.githubusercontent.com/69439573/153830246-d9d29801-3d0d-4f63-8806-b899901057a6.png)
+
+
 This currently does not add the bossmenu location to the job due to qb-bossmenu restrictions. This should be more possible when qb-menagement comes out, or if we find another soulution. 
 It still puts boss menu locations in the DB so you can bring them to bossmenu config easier! 
 *It makes the menu where you are standing when you click create job!*
-![image](https://user-images.githubusercontent.com/69439573/153830246-d9d29801-3d0d-4f63-8806-b899901057a6.png)
-
 ## Usage 
 Just use the command you set in the config to open up qb-input to create the job. 
 Currently the default is 5 ranks 0-4. 
