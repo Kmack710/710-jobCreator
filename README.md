@@ -23,5 +23,5 @@ RegisterNetEvent('QBCore:Client:OnSharedUpdateMultiple', function(tableName, val
     TriggerEvent('QBCore:Client:UpdateObject')
 end)
 ```
-## After that Drag the exports.lua into your qb-core/server folder.
-## Be sure to run sql.sql in your database! From Readme folder. 
+## After that Drag the exports.lua (From Important Folder) into your qb-core/server folder.
+## Be sure to run sql.sql in your database! From IMPORTANT folder. 
