@@ -2,7 +2,7 @@
 ![image](https://user-images.githubusercontent.com/69439573/153830246-d9d29801-3d0d-4f63-8806-b899901057a6.png)
 
 
-This currently does not add the bossmenu location to the job due to qb-bossmenu restrictions. This should be more possible when qb-menagement comes out, or if we find another soulution. 
+This currently does not add the bossmenu location to the job due to qb-bossmenu restrictions. This should be more possible when qb-management comes out, or if we find another soulution. 
 It still puts boss menu locations in the DB so you can bring them to bossmenu config easier! 
 *It makes the menu where you are standing when you click create job!*
 ## Usage 
@@ -26,4 +26,5 @@ RegisterNetEvent('QBCore:Client:OnSharedUpdateMultiple', function(tableName, val
 end)
 ```
 ## After that Drag the exports.lua (From Important Folder) into your qb-core/server folder.
+## Be sure to add exports.lua to your fxmanifest!
 ## Be sure to run sql.sql in your database! From IMPORTANT folder. 
