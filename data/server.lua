@@ -14,6 +14,12 @@ RegisterNetEvent('710-jobCreator:createJob', function(jobName, job, location)
     end
 end)
 
+local function createJob(source)
+    local source = source 
+    TriggerClientEvent('710-jobCreator:openMenu', source)
+end
+exports('createJob', createJob)
+
 AddEventHandler('onResourceStart', function(resource)
     if resource == GetCurrentResourceName() then
         Wait(100)
@@ -27,6 +33,7 @@ AddEventHandler('onResourceStart', function(resource)
                     jobTable[jobs[i]['job']] = json.decode(jobs[i]["jobdata"])
                 end 
                 exports['qb-core']:AddJobs(jobTable)
+                Wait(5000)
                 print('^2 710-jobCreator ALL jobs from DB have been pushed to the core!')
             end
         else 
@@ -39,6 +46,7 @@ AddEventHandler('onResourceStart', function(resource)
                     jobTable[jobs[i]['job']] = json.decode(jobs[i]["jobdata"])
                 end 
                 exports['qb-core']:AddJobs(jobTable)
+                Wait(5000)
                 print('^2 710-jobCreator ALL jobs from DB have been pushed to the core!')
             end
         end
