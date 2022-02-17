@@ -19,7 +19,6 @@ local function createJob(source)
     TriggerClientEvent('710-jobCreator:openMenu', source)
 end
 exports('createJob', createJob)
-
 AddEventHandler('onResourceStart', function(resource)
     if resource == GetCurrentResourceName() then
         Wait(100)
