@@ -14,7 +14,7 @@ Just use the command you set in the config to open up qb-input to create the job
 Currently the default is 5 ranks 0-4. 
 You can also use this export below to call this from other jobs. Or to use with my 710-econSystem Script
 ```lua -- MUST BE SERVER SIDE 
-exports['710-jobCreator']:crateJob(source)
+exports['710-jobCreator']:createJob(source)
 ```
 ## Unless qb-core has already gotten this update(1.0.1) add this below  - Huge thanks to idris! 
 ## Add this to qb-core/client/events.lua all the way at the bottom
